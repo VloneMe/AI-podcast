@@ -19,6 +19,7 @@ export const PodcastCard = (
                     alt={title}
                     width={174}
                     height={174}
+                    className='aspect-square w-full rounded-xl h-fit 2xl:size-[200px]'
             />
             <div className='flex flex-col'>
                 <h1 className='text-16 truncate font-bold text-white-1'>{title}</h1>
